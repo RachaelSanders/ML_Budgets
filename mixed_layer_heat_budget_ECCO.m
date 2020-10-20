@@ -3,7 +3,7 @@
 % Horizontal advection (plus eddy advection) = u*grad(T)
 % Vertical entrainment  = dh/dt * deltaT/h 
 % Lateral induction = u*grad(h) * deltaT/h 
-% Horizontal diffusiond = k*d2T/dx2 
+% Horizontal diffusion = k*d2T/dx2 
 % Vertical diffusion = K/h*dT/dz 
 
 
