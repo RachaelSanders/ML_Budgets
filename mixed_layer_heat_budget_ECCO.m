@@ -370,7 +370,7 @@ end
 
 
 %% Calculate residual in budget - Sum of budget terms - equal to tendency if no residual
-heat_sum = heat_surface_flux + heat_advection + heat_eddy_advection + heat_entrainment + heat_horizontal_diffusion + heat_vertical_diffusion;
+heat_sum = heat_surface_flux + heat_advection + heat_eddy_advection + heat_entrainment + heat_lateral_induction + heat_horizontal_diffusion + heat_vertical_diffusion;
 
 %Residual/error in budget
 heat_residual = heat_tendency_term - heat_sum;
