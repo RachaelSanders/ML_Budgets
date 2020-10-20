@@ -9,6 +9,16 @@
 
 %Load dimension data
 load('ECCOv4_grid.mat','XC','YC','RC','RF','DXC','DYC','DXG','DYG','dd')
+%XC  = longitude at cell centre
+%YC  = latitude at cell centre
+%RC  = depth at cell centre
+%RF  = depth at cell edge
+%DXC = longitudinal distance between cell centres (m)
+%DYC = longitudinal distance between cell edges(m)
+%DXG = latitudinal distance between cell centres (m)
+%DYG = latitudinal distance between cell edges (m)
+%dd  = decimal date
+
 
 years = 1992:2015;
 
